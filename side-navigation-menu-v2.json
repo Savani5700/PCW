@@ -1,0 +1,59 @@
+{
+  "name": "Side Navigation Menu",
+  "description": "Side Navigation Menu - Sliding Menu",
+  "eula": "",
+  "vendor": "Daniel Santos",
+  "license": "",
+  "id": "com.sap.side.navigation.menu.v2",
+  "newInstancePrefix": "SideNavigationMenuV2",
+  "version": "2.1.0",
+  "icon": "",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-sap-side-navigation-menu-v2",
+      "url": "https://sac-dev-cw.novartis.net/cw/dev/side-navigation-menu/side-navigation-menu-v2.js",
+      "integrity": "",
+      "ignoreIntegrity" : true
+    }
+  ],
+  "properties": {
+    "URLParameter": {
+      "type": "string",
+      "description": "The URL Parameter",
+      "default": ""
+    }
+  },
+  "methods": {
+    "getID": {
+      "returnType": "string",
+      "description": "Return ID of option selected"
+    },
+    "getParameter": {
+      "description": "Get the Parameter from the URL",
+      "returnType": "string"
+    },
+    "setParameter": {
+      "description": "Sets the Parameter String to the URL",
+      "parameters": [
+        {
+          "name": "newParameter",
+          "type": "string",
+          "description": "Parameter String"
+        }
+      ],
+      "body": "this.URLParameter = newParameter;"
+    }  
+  },
+  "events": {
+    "onClick": {
+      "description": "Returns the option selected."
+    },
+    "onOpen": {
+      "description": "Event on the user opens the Menu"
+    },
+    "onClose": {
+      "description": "Event on the user closes the Menu"
+    }
+  }
+}
