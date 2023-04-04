@@ -14,21 +14,21 @@
     {
       "kind": "main",
       "tag": "com-ds-finalv4-7-sap-sac-alive",
-      "url": "https://sac-dev-cw.novartis.net/cw/dev/SAC_Dropdown_CW/Final_Dropdown_V4_7.js",
+      "url": "https://SAC_Dropdown_CW/Final_Dropdown_V4_7.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "com-ds-finalv4-7-sap-sac-alive-builder",
-      "url": "https://sac-dev-cw.novartis.net/cw/dev/SAC_Dropdown_CW/Final_Dropdown_V4_7_Builder.js",
+      "url": "https://SAC_Dropdown_CW/Final_Dropdown_V4_7_Builder.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "styling",
       "tag": "com-ds-finalv4-7-sap-sac-alive-styling",
-      "url": "https://sac-dev-cw.novartis.net/cw/dev/SAC_Dropdown_CW/Final_Dropdown_V4_7_Styling.js",
+      "url": "https://SAC_Dropdown_CW/Final_Dropdown_V4_7_Styling.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
